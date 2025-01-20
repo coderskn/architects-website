@@ -144,6 +144,46 @@ main > section{
     font-size: 2.5rem;
     font-weight: 700;
     color: #FF900E;
+    
+}
+
+.features-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    border-left: 5px solid #FF900E;
+   padding-left: 20px;
+
+}
+
+.feature-card{
+    padding: 30px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+    border-radius: 8px;
+    margin-right: 140px;
+    
+    
+}
+
+
+.features-image img{
+    width: 100%;
+}
+.experience-badge{
+    width: 342px;
+    height: 200px;
+    border-radius: 8px;
+    background-color: #FF900E;
+    font-weight: 600;
+    color: #ffffff;
+    border: none;
+    font-size: 1.5rem;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+
+#experience-year{
+    font-size: 4rem;
 }
 
 
@@ -207,9 +247,10 @@ main > section{
 
 
 
+
 @media screen and (max-width: 576px) {
 
-    .navbar, .nav-links, .teams{
+    .navbar, .nav-links, .features, .teams{
         flex-direction: column;
     }
     
@@ -231,6 +272,13 @@ main > section{
     justify-items: center;
     gap: 50px;
 }
+
+.experience-badge{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+
 
 
 }
